@@ -1,0 +1,51 @@
+@charset "UFT-8";
+
+@font-face {
+    font-family: "Fontes";
+    src: url(fontes/Ghastly\ Panic.ttf) format("opentype");
+    font-weight: normal;
+    font-style: normal;}
+
+body{
+    background-color: #4c4c9c59;
+}
+
+h1#principal{
+    text-align: center;
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+h2{
+    text-indent: 5px;
+
+}
+
+.facil{
+    color: #15ff00;
+}
+
+.medio{
+    color: #ffee04;
+}
+
+.dificil{
+    color: #ff0000;
+}
+
+p{
+    text-align: justify;
+    font-family: "fontes";
+
+}
+
+.texto{
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Times, 'Times New Roman', serif;
+}
+
+

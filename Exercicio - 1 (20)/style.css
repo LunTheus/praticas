@@ -1,0 +1,27 @@
+@charset "UFT-8";
+
+@font-face {
+    font-family: "Fontes";
+    src: url(fontes/Ghastly\ Panic.ttf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+    background-color: black;
+}
+h1{
+    font-family: 'fontes', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    text-decoration: underline;
+    color: aliceblue;
+    text-align: center;
+}
+
+p{
+    font-family: "fontes";
+    font-size: x-large;
+    color: aliceblue;
+    text-indent: 30px;
+    text-align: justify;
+}
