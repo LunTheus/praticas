@@ -12,6 +12,12 @@ body{
     background-color: black;
 }
 
+img.img{
+    background-position: left top;
+    
+}
+
+
 nav{
     padding: 60px;
     text-align: center;
@@ -26,7 +32,7 @@ nav a{
 
 nav a:hover{
     text-decoration: underline;
-    color: #2970FF;
+    color: #fff129;
 }
 
 main div h1{
