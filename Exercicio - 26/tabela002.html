@@ -23,6 +23,7 @@
         table{
             border-collapse: collapse;
             width: 600px;
+            position: relative;
         }
 
         caption{
@@ -34,8 +35,14 @@
         }
 
         thead{
-            background-color: darkgray;
+            background-color: rgb(150, 150, 150);
             color: black;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;    
+            background-color: rgb(150, 150, 150);
         }
 
         tr, th, td{
@@ -52,6 +59,10 @@
         }
     
         td.porc{
+            text-align: right;
+        }
+
+        tfoot td{
             text-align: right;
         }
 
@@ -139,6 +150,12 @@
                 <td class="popu">277,466,763</td>
                 <td class="porc">3,26</td>
             </tr>
+            <tfoot>
+                <tr>
+                    <th colspan="2">Habitantes</th>
+                    <td colspan="2">1.233,444,555</td>
+                </tr>
+            </tfoot>
         </tbody>
     </table>
 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas consequatur obcaecati eveniet voluptatibus est consectetur error impedit magnam! Id alias quisquam nulla labore veritatis provident quo quidem consequuntur tenetur debitis!</p>
