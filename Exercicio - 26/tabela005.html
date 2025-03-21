@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 300px;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th{
+            background-color: rgba(105, 105, 105, 0.637);
+            color: beige;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .num{
+            background-color: rgba(105, 105, 105, 0.637);
+            color: beige;
+            font-weight: bolder;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Área</th>
+                <th colspan="1" scope="col">Disciplina</th>
+                <th colspan="2" scope="colgroup">Notas</th>
+                <th scope="col">Média</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4" scope="rowgroup">Exatas</th>
+                <td>Quimica</td>
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+                <td>00</td>
+            </tr>
+            <tr>
+                <td>Fisica</td>
+                <td>00</td>
+                <td>00</td>
+                <td>00</td>
+            </tr>
+            <tr>
+                <td>Historia</td>
+                <td>00</td>
+                <td>00</td>
+                <td>00</td>
+            </tr>
+            <tr>
+                <td>Matematica</td>
+                <td>00</td>
+                <td>00</td>
+                <td>00</td>
+            </tr>
+            <tr>
+                <th colspan="4">Midia das Etapas</th>
+                <td class="num">00</td>
+            </tr>
+            <tr>
+                <th rowspan="4" scope="rowgroup">Humanos</th>
+            </tr>
+            <tr>
+                <td>Historia</td>
+                <td colspan="1">00</td>
+                <td colspan="1">00</td>
+                <td colspan="1">00</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td colspan="1">00</td>
+                <td colspan="1">00</td>
+                <td colspan="1">00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="4">Média dos Humanos</th>
+                <td class="num">00</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

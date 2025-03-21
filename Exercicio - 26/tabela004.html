@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bolder;
+            background-color: black;
+            color: aliceblue;
+            padding: 10px;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 800px;
+
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+            font-size: 1.1em;
+        }
+
+        tr > th{
+            background-color: darkgray;
+        }
+    </style>
+</html>
+<body>
+    <table>
+        <caption>
+            Gosto de Mulheres e Homens
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupos</th>
+                <th scope="col">Nomes</th>
+                <th colspan="4" scope="colgroup">Filmes</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th colspan="4" scope="row">Total</th>
+                <td>1000</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                <td>Maria Clara</td>
+                <td>Princesa</td>
+                <td>Shrek</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr>
+                <td>Beatriz Ramos</td>
+                <td>Nárnia</td>
+                <td>Dorama</td>
+                <td>Cinquenta tons de cinza</td>
+            </tr>
+            <tr>
+                <td>Ana luiza</td>
+                <td>O Rei Leão</td>
+                <td>À Espera de um Milagre</td>
+                <td>O Senhor dos Anéis</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Homens</th>
+                <td>Lucas Theus</td>
+                <td>Deadpool</td>
+                <td>Jhow Wick</td>
+                <td>Silenciador</td>
+            </tr>
+            <tr>
+                <td>Leo Luan</td>
+                <td>Batman</td>
+                <td>Liga da Justiça</td>
+                <td>Superman</td>
+            </tr>
+            <tr>
+                <td>Mauro Silva</td>
+                <td>A vida é Bela</td>
+                <td>Homem-Aranha</td>
+                <td>Venom</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
