@@ -10,19 +10,54 @@
             padding: 0;
         }
 
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 20px;
+        }
+
         table{
             border-collapse: collapse;
             width: 300px;
+        }
+
+        caption{
+            border: 1px solid black;
+            background-color: black;
+            color: rgb(255, 255, 255);
+            font-size: 30px;
         }
 
         td, th{
             border: 1px solid black;
             padding: 10px;
         }
+
+        th{
+            background-color: dimgray;
+            color: beige;
+            text-shadow: 2px 2px 2px black;
+        }
+
+        .cnome{
+            background-color: blueviolet;
+        }
+
+        .cgrupo{
+            background-color: blue;
+        }
+
+        .cprof{
+            background-color: aquamarine;
+        }
     </style>
 </head>
 <body>
     <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cgrupo" span="2">
+            <col class="cprof">
+        </colgroup>
         <caption>
             Cadastro
         </caption>
@@ -37,6 +72,18 @@
             <td>Feminina</td>
             <td>26</td>
             <td>Médica</td>
+        </tr>
+        <tr>
+            <td>Luana</td>
+            <td>Feminina</td>
+            <td>19</td>
+            <td>Enfermeira</td>
+        </tr>
+        <tr>
+            <td>Lucas</td>
+            <td>Masculino</td>
+            <td>21</td>
+            <td>Profissional em Gamers</td>
         </tr>
     </table>
 </body>
